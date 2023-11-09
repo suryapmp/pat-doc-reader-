@@ -1,0 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #303c66;
+    font-family: 'Raleway', sans-serif;
+}
+
+button{
+  margin: 5%;
+  padding: 25px 30px;
+  background-color: #50619f;
+  color: #03e9f4;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 4px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+button:hover{
+    background: #03e9f4;
+    color: #050801;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+
+
+.App {
+  
+  margin-top: 2%;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-style: italic;
+  padding: 50px;
+}
+
+h1 {
+  color: #5be4dd;
+}
+
+
+input[type="file"] {
+  border: none;
+  background-color: #6691c2;
+  padding: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: #ff0000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+div > h2 {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin: 5px 0;
+  
+}
+
+pre {
+  border: 1px solid #0a0909;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-top: 20px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-size: 16px;
+}
+
+
+.file-content {
+  height: 50vh; 
+  overflow-y: auto;
+}
+
+ .result{
+background-color: #92b0dc;
+
+
+
+
+ }
+
+ .hide{
+  display:none;
+ }
+ .claim-content{
+  background-color: aliceblue;
+ }
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px; 
+}
+
+.smallButton {
+  font-size: 14px; 
+  margin-right: 10px;
+}
+
+.inputLable{
+  color:#5be4dd;
+  font-size: larger;
+  
+}
+.formFields{
+  margin-top: 5%;
+  
+}
+.inputFields{
+  height:1cm;
+  width: 5cm;
+}
